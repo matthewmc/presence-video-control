@@ -1,7 +1,7 @@
 # presence-video-control
 Chrome extension that controls various video players with face detection 
 
-Uses tracking.js (someone else implemented the difficult portions) contained in scripts/tracking.js-master.  See trackingjs.com.  
+Uses tracking.js (as you can see, someone else implemented the difficult portions) which is contained in scripts/tracking.js-master.  See trackingjs.com for their documentation etc.  
 
 This is their license:
 Software License Agreement (BSD License)
