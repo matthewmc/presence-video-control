@@ -1,4 +1,3 @@
-var constraints = {sampleRate: 12};
 var timer_delay = 2000; // Delay before pausing starts.  
 window.onload = function(){
     var tracker = new tracking.ObjectTracker('face');
