@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "presence-player",
+    "version": "0.1",
+
+    "author": "Matthew C",
+    "description": "Eye/face detection for video player control",
+
+    "background": {
+        "page": "views/background.html",
+        "script": ["scripts/background.js"]
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*", "https://www.netflix.com/*"],
+            "js": ["scripts/player_page.js"]
+        }
+    ],
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "browser_action": {
+        "default_popup": "views/popup.html"
+    },
+
+    "options_page": "views/options.html"
+}
